@@ -1,0 +1,12 @@
+<User>
+    <name>tom</name>
+    <age>23</age>
+    <customers>
+        <Customer>
+            <commodity>apple1</commodity>
+        </Customer>
+        <Customer>
+            <commodity>apple2</commodity>
+        </Customer>
+    </customers>
+</User>

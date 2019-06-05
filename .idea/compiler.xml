@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Hystrix-Demo" />
+        <module name="UserInfo-Maneger-System" />
+        <module name="Luckymoney" />
+        <module name="QrCode" />
+        <module name="Fuzzy-Query" />
+        <module name="Mercy-Blitz" />
+        <module name="ribbon-consumer" />
+        <module name="feign-consumer" />
+        <module name="springcloud-basic" />
+        <module name="API-TEST" />
+        <module name="fuzzy-query" />
+        <module name="eureka-server" />
+        <module name="Binlog-Client" />
+        <module name="api-gateway" />
+        <module name="DHL-FIND-SIMILAR" />
+        <module name="basic-application-api" />
+        <module name="SpringBoot-Actuator-Prometheus-Grafana" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Fuzzy-Query" target="1.8" />
+      <module name="Image-Handle" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

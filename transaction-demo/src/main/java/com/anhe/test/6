@@ -1,0 +1,77 @@
+<QtdShp>
+                <OriginServiceArea>
+                    <FacilityCode>HGE</FacilityCode>
+                    <ServiceAreaCode>HGH</ServiceAreaCode>
+                </OriginServiceArea>
+                <DestinationServiceArea>
+                    <FacilityCode>PH2</FacilityCode>
+                    <ServiceAreaCode>PHL</ServiceAreaCode>
+                </DestinationServiceArea>
+                <GlobalProductCode>D</GlobalProductCode>
+                <LocalProductCode>D</LocalProductCode>
+                <ProductShortName>EXPRESS WORLDWIDE</ProductShortName>
+                <LocalProductName>EXPRESS WORLDWIDE DOC</LocalProductName>
+                <NetworkTypeCode>TD</NetworkTypeCode>
+                <POfferedCustAgreement>N</POfferedCustAgreement>
+                <TransInd>Y</TransInd>
+                <PickupDate>2019-04-11</PickupDate>
+                <PickupCutoffTime>PT20H30M</PickupCutoffTime>
+                <BookingTime>PT19H30M</BookingTime>
+                <CurrencyCode>CNY</CurrencyCode>
+                <ExchangeRate>0.129643</ExchangeRate>
+                <WeightCharge>574.000</WeightCharge>
+                <WeightChargeTax>0.000</WeightChargeTax>
+                <TotalTransitDays>4</TotalTransitDays>
+                <PickupPostalLocAddDays>0</PickupPostalLocAddDays>
+                <DeliveryPostalLocAddDays>0</DeliveryPostalLocAddDays>
+                <PickupNonDHLCourierCode> </PickupNonDHLCourierCode>
+                <DeliveryNonDHLCourierCode> </DeliveryNonDHLCourierCode>
+                <DeliveryDate>
+                    <DeliveryType>QDDC</DeliveryType>
+                    <DlvyDateTime>2019-04-15 11:59:00</DlvyDateTime>
+                    <DeliveryDateTimeOffset>+00:00</DeliveryDateTimeOffset>
+                </DeliveryDate>
+                <DeliveryTime>PT23H59M</DeliveryTime>
+                <DimensionalWeight>1.200</DimensionalWeight>
+                <WeightUnit>KG</WeightUnit>
+                <PickupDayOfWeekNum>4</PickupDayOfWeekNum>
+                <DestinationDayOfWeekNum>1</DestinationDayOfWeekNum>
+                <QuotedWeight>1.500</QuotedWeight>
+                <QuotedWeightUOM>KG</QuotedWeightUOM>
+                <QtdShpExChrg>
+                    <SpecialServiceType>FF</SpecialServiceType>
+                    <LocalServiceType>FF</LocalServiceType>
+                    <GlobalServiceName>FUEL SURCHARGE</GlobalServiceName>
+                    <LocalServiceTypeName>FUEL SURCHARGE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <CurrencyCode>CNY</CurrencyCode>
+                    <ChargeValue>99.020</ChargeValue>
+                    <QtdSExtrChrgInAdCur>
+                        <ChargeValue>99.020</ChargeValue>
+                        <CurrencyCode>CNY</CurrencyCode>
+                        <CurrencyRoleTypeCode>BILLC</CurrencyRoleTypeCode>
+                    </QtdSExtrChrgInAdCur>
+                    <QtdSExtrChrgInAdCur>
+                        <ChargeValue>99.020</ChargeValue>
+                        <CurrencyCode>CNY</CurrencyCode>
+                        <CurrencyRoleTypeCode>PULCL</CurrencyRoleTypeCode>
+                    </QtdSExtrChrgInAdCur>
+                    <QtdSExtrChrgInAdCur>
+                        <ChargeValue>12.840</ChargeValue>
+                        <ChargeTaxRate>0.000</ChargeTaxRate>
+                        <CurrencyCode>EUR</CurrencyCode>
+                        <CurrencyRoleTypeCode>BASEC</CurrencyRoleTypeCode>
+                    </QtdSExtrChrgInAdCur>
+                </QtdShpExChrg>
+                <PricingDate>2019-04-12</PricingDate>
+                <ShippingCharge>673.020</ShippingCharge>
+                <TotalTaxAmount>0.000</TotalTaxAmount>
+                <QtdSInAdCur>
+                    <CurrencyCode>CNY</CurrencyCode>
+                    <CurrencyRoleTypeCode>BILLC</CurrencyRoleTypeCode>
+                    <WeightCharge>574.000</WeightCharge>
+                    <TotalAmount>673.020</TotalAmount>
+                    <TotalTaxAmount>0.000</TotalTaxAmount>
+                    <WeightChargeTax>0.000</WeightChargeTax>
+                </QtdSInAdCur>

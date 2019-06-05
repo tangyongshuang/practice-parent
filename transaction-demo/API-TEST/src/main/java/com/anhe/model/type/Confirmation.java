@@ -1,0 +1,8 @@
+package com.anhe.model.type;
+
+public enum Confirmation {
+	USPSNoConfirmation,USPSDelivery,USPSSignature,USPSAdultSignature,
+	FedExAdultsignaturerequired,FedExDirectsignaturerequired,FedExIndirectsignaturerequired,
+	FedExNonespecified,FedExServiceDefault,
+	UPSNoConfirmation,UPSDeliveryConfirmation,UPSSignatureRequired,UPSAdultSignatureRequired
+}

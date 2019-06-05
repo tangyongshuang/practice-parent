@@ -1,0 +1,124 @@
+<QtdShp>
+    <OriginServiceArea>
+        <FacilityCode>HGE</FacilityCode>
+        <ServiceAreaCode>HGH</ServiceAreaCode>
+    </OriginServiceArea>
+    <DestinationServiceArea>
+        <FacilityCode>PH2</FacilityCode>
+        <ServiceAreaCode>PHL</ServiceAreaCode>
+    </DestinationServiceArea>
+    <GlobalProductCode>L</GlobalProductCode>
+    <LocalProductCode>L</LocalProductCode>
+    <ProductShortName>EXPRESS 10:30</ProductShortName>
+    <LocalProductName>EXPRESS 10:30 DOC</LocalProductName>
+    <NetworkTypeCode>TD</NetworkTypeCode>
+    <POfferedCustAgreement>N</POfferedCustAgreement>
+    <TransInd>Y</TransInd>
+    <PickupDate>2019-04-12 10:30:00.123 CST</PickupDate>
+    <PickupCutoffTime>PT20H30M</PickupCutoffTime>
+    <BookingTime>PT19H30M</BookingTime>
+    <CurrencyCode>CNY</CurrencyCode>
+    <ExchangeRate>0.129643</ExchangeRate>
+    <WeightCharge>574.000</WeightCharge>
+    <WeightChargeTax>0.000</WeightChargeTax>
+    <TotalTransitDays>3</TotalTransitDays>
+    <PickupPostalLocAddDays>0</PickupPostalLocAddDays>
+    <DeliveryPostalLocAddDays>0</DeliveryPostalLocAddDays>
+    <PickupNonDHLCourierCode> </PickupNonDHLCourierCode>
+    <DeliveryNonDHLCourierCode> </DeliveryNonDHLCourierCode>
+    <DeliveryDate>
+        <DeliveryType>QDDC</DeliveryType>
+        <DlvyDateTime>2019-04-15 10:30:00.123 CST</DlvyDateTime>
+        <DeliveryDateTimeOffset>+00:00</DeliveryDateTimeOffset>
+    </DeliveryDate>
+    <DeliveryTime>PT10H30M</DeliveryTime>
+    <DimensionalWeight>1.200</DimensionalWeight>
+    <WeightUnit>KG</WeightUnit>
+    <PickupDayOfWeekNum>5</PickupDayOfWeekNum>
+    <DestinationDayOfWeekNum>1</DestinationDayOfWeekNum>
+    <QuotedWeight>1.500</QuotedWeight>
+    <QuotedWeightUOM>KG</QuotedWeightUOM>
+    <QtdShpExChrg>
+        <SpecialServiceType>YJ</SpecialServiceType>
+        <LocalServiceType>YJ</LocalServiceType>
+        <GlobalServiceName>10:30 PREMIUM</GlobalServiceName>
+        <LocalServiceTypeName>10:30 PREMIUM</LocalServiceTypeName>
+        <SOfferedCustAgreement>N</SOfferedCustAgreement>
+        <ChargeCodeType>SCH</ChargeCodeType>
+        <CurrencyCode>CNY</CurrencyCode>
+        <ChargeValue>199.000</ChargeValue>
+        <QtdSExtrChrgInAdCur>
+            <ChargeValue>199.000</ChargeValue>
+            <CurrencyCode>CNY</CurrencyCode>
+            <CurrencyRoleTypeCode>BILLC</CurrencyRoleTypeCode>
+        </QtdSExtrChrgInAdCur>
+        <QtdSExtrChrgInAdCur>
+            <ChargeValue>199.000</ChargeValue>
+            <CurrencyCode>CNY</CurrencyCode>
+            <CurrencyRoleTypeCode>PULCL</CurrencyRoleTypeCode>
+        </QtdSExtrChrgInAdCur>
+        <QtdSExtrChrgInAdCur>
+            <ChargeValue>25.800</ChargeValue>
+            <ChargeTaxRate>0.000</ChargeTaxRate>
+            <CurrencyCode>EUR</CurrencyCode>
+            <CurrencyRoleTypeCode>BASEC</CurrencyRoleTypeCode>
+        </QtdSExtrChrgInAdCur>
+    </QtdShpExChrg>
+    <QtdShpExChrg>
+        <SpecialServiceType>FF</SpecialServiceType>
+        <LocalServiceType>FF</LocalServiceType>
+        <GlobalServiceName>FUEL SURCHARGE</GlobalServiceName>
+        <LocalServiceTypeName>FUEL SURCHARGE</LocalServiceTypeName>
+        <SOfferedCustAgreement>N</SOfferedCustAgreement>
+        <ChargeCodeType>SCH</ChargeCodeType>
+        <CurrencyCode>CNY</CurrencyCode>
+        <ChargeValue>133.340</ChargeValue>
+        <QtdSExtrChrgInAdCur>
+            <ChargeValue>133.340</ChargeValue>
+            <CurrencyCode>CNY</CurrencyCode>
+            <CurrencyRoleTypeCode>BILLC</CurrencyRoleTypeCode>
+        </QtdSExtrChrgInAdCur>
+        <QtdSExtrChrgInAdCur>
+            <ChargeValue>133.340</ChargeValue>
+            <CurrencyCode>CNY</CurrencyCode>
+            <CurrencyRoleTypeCode>PULCL</CurrencyRoleTypeCode>
+        </QtdSExtrChrgInAdCur>
+        <QtdSExtrChrgInAdCur>
+            <ChargeValue>17.290</ChargeValue>
+            <ChargeTaxRate>0.000</ChargeTaxRate>
+            <CurrencyCode>EUR</CurrencyCode>
+            <CurrencyRoleTypeCode>BASEC</CurrencyRoleTypeCode>
+        </QtdSExtrChrgInAdCur>
+    </QtdShpExChrg>
+    <PricingDate>2019-04-11</PricingDate>
+    <ShippingCharge>906.340</ShippingCharge>
+    <TotalTaxAmount>0.000</TotalTaxAmount>
+    <QtdSInAdCur>
+        <CurrencyCode>CNY</CurrencyCode>
+        <CurrencyRoleTypeCode>BILLC</CurrencyRoleTypeCode>
+        <WeightCharge>574.000</WeightCharge>
+        <TotalAmount>906.340</TotalAmount>
+        <TotalTaxAmount>0.000</TotalTaxAmount>
+        <WeightChargeTax>0.000</WeightChargeTax>
+    </QtdSInAdCur>
+    <QtdSInAdCur>
+        <CurrencyCode>CNY</CurrencyCode>
+        <CurrencyRoleTypeCode>PULCL</CurrencyRoleTypeCode>
+        <WeightCharge>574.000</WeightCharge>
+        <TotalAmount>906.340</TotalAmount>
+        <TotalTaxAmount>0.000</TotalTaxAmount>
+        <WeightChargeTax>0.000</WeightChargeTax>
+    </QtdSInAdCur>
+    <QtdSInAdCur>
+        <ExchangeRate>0.129643</ExchangeRate>
+        <CurrencyCode>EUR</CurrencyCode>
+        <CurrencyRoleTypeCode>BASEC</CurrencyRoleTypeCode>
+        <WeightCharge>74.420</WeightCharge>
+        <TotalAmount>117.510</TotalAmount>
+        <TotalTaxAmount>0.000</TotalTaxAmount>
+        <WeightChargeTax>0.000</WeightChargeTax>
+    </QtdSInAdCur>
+    <PickupWindowEarliestTime>09:30:00</PickupWindowEarliestTime>
+    <PickupWindowLatestTime>20:30:00</PickupWindowLatestTime>
+    <BookingCutoffOffset>PT1H</BookingCutoffOffset>
+</QtdShp>

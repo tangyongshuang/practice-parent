@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/maimaijiao?useUnicode=true&amp;characterEncoding=utf-8&amp;generateSimpleParameterMetadata=true&amp;noAccessToProcedureBodies=true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

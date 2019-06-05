@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+<a href="http://localhost:9898/download">单个pdf文件下载</a><br/>
+<a href="http://localhost:9898/download2">合并后的pdf文件下载</a>
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            type: "POST",
+            url: "/LoginServlet",
+            contentType: "application/json;charset=utf-8",
+            data:{"name":"yd","pwd":"123456"},
+            dataType: "json",
+            success:function (message) {
+                alert("提交成功"+JSON.stringify(message));
+            },
+            error:function (message) {
+                alert("提交失败"+JSON.stringify(message));
+            }
+        });
+    });
+</script>
+<a id="circle"> 模拟下载链接</a>
+</body>
+</html>

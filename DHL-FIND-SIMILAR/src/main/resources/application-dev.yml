@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: circledev
+    password: Circleus2017
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://rm-bp1m0bj64d742giv3o.mysql.rds.aliyuncs.com:3306/maimaijiao?useUnicode=true&amp;characterEncoding=utf-8&amp;generateSimpleParameterMetadata=true&amp;noAccessToProcedureBodies=true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

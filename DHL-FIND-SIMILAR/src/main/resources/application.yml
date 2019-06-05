@@ -1,0 +1,6 @@
+server:
+  port: 11315
+
+spring:
+  profiles:
+    active: prod
