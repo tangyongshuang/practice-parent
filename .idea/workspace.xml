@@ -13,7 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="980132f0-2f41-468a-bd93-01e7aa8a6cc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/anhe/APIGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/anhe/APIGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -53,8 +53,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feign-consumer/src/main/java/com/anhe/invoke/HelloService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+            <state relative-caret-position="315">
+              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,8 +89,8 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#140#141#0" expanded="true" />
                 <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/anhe/filter/AccessFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="27" column="54" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="54" />
+            <state relative-caret-position="135">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#155#156#0" expanded="true" />
@@ -114,8 +117,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="37" />
+            <state relative-caret-position="468">
+              <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/anhe/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -213,7 +230,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/UserInfo-Maneger-System/src/main/java/com/anhe/dao/UserInfoDao.java" />
         <option value="$PROJECT_DIR$/UserInfo-Maneger-System/src/main/java/com/anhe/entity/UserInfo.java" />
         <option value="$PROJECT_DIR$/UserInfo-Maneger-System/src/main/java/com/anhe/utils/ResultUtils.java" />
         <option value="$PROJECT_DIR$/UserInfo-Maneger-System/src/main/resources/application.yml" />
@@ -263,6 +279,7 @@
         <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/anhe/filter/AccessFilter.java" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/anhe/APIGateway.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/anhe/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" />
       </list>
     </option>
@@ -355,6 +372,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="anhe" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practiceparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practiceparent" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="anhe" type="462c0819:PsiDirectoryNode" />
               <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -399,6 +426,69 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="anhe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practiceparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practiceparent" type="462c0819:PsiDirectoryNode" />
+              <item name="feign-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="anhe" type="462c0819:PsiDirectoryNode" />
+              <item name="invoke" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practiceparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practiceparent" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practiceparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practiceparent" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practiceparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practiceparent" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practiceparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practiceparent" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practiceparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practiceparent" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="anhe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practiceparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practiceparent" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="anhe" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practiceparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practiceparent" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practiceparent" type="b2602c69:ProjectViewProjectNode" />
@@ -903,7 +993,7 @@
       <workItem from="1559514526115" duration="30362000" />
       <workItem from="1559616934731" duration="4278000" />
       <workItem from="1559625890801" duration="4068000" />
-      <workItem from="1559635975002" duration="26363000" />
+      <workItem from="1559635975002" duration="30679000" />
     </task>
     <servers />
   </component>
@@ -940,7 +1030,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="304153000" />
+    <option name="totallyTimeSpent" value="308469000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -952,10 +1042,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="825" extended-state="6" />
+    <frame x="0" y="23" width="2048" height="1129" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.77613413" visible="true" weight="0.26251787" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.77613413" visible="true" weight="0.18295115" />
       <window_info id="Structure" order="1" sideWeight="0.22386588" side_tool="true" weight="0.22133599" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="JRebel" order="3" sideWeight="0.5019531" side_tool="true" weight="0.25679544" />
@@ -969,14 +1059,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32816902" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995015" weight="0.35996056" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5187377" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3806706" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32816902" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32957748" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31830987" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.22287968" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50049853" side_tool="true" weight="0.32938856" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" />
@@ -1137,6 +1227,12 @@
           <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api-gateway/src/main/java/com/anhe/filter/AccessFilter.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1145,13 +1241,6 @@
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../alirepository/org/springframework/cloud/spring-cloud-commons/1.2.4.RELEASE/spring-cloud-commons-1.2.4.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../alirepository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2-sources.jar!/com/netflix/discovery/DiscoveryClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11070">
@@ -1271,17 +1360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-basic/src/main/java/com/anhe/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="68" column="49" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#571#595#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1462,13 +1540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feign-consumer/src/main/java/com/anhe/invoke/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/feign-consumer/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1525,18 +1596,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/anhe/filter/AccessFilter.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-basic/src/main/java/com/anhe/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="27" column="54" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="54" />
+        <state relative-caret-position="405">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-consumer/src/main/java/com/anhe/invoke/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1549,16 +1624,44 @@
             <element signature="imports" expanded="true" />
             <element signature="e#140#141#0" expanded="true" />
             <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/anhe/filter/AccessFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/anhe/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="37" />
+        <state relative-caret-position="468">
+          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
         </state>
       </provider>
     </entry>
