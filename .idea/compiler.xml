@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Hystrix-Demo" />
+        <module name="config-server" />
+        <module name="config-client" />
         <module name="UserInfo-Maneger-System" />
         <module name="Luckymoney" />
         <module name="QrCode" />
@@ -19,9 +21,10 @@
         <module name="fuzzy-query" />
         <module name="eureka-server" />
         <module name="Binlog-Client" />
+        <module name="basic-application-api" />
         <module name="api-gateway" />
         <module name="DHL-FIND-SIMILAR" />
-        <module name="basic-application-api" />
+        <module name="rabbitmq-hello" />
         <module name="SpringBoot-Actuator-Prometheus-Grafana" />
       </profile>
     </annotationProcessing>

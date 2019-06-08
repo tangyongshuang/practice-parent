@@ -40,6 +40,10 @@
         <module>feign-consumer</module>
         <module>basic-application-api</module>
         <module>api-gateway</module>
+        <module>config-server</module>
+        <module>config-client</module>
+        <module>rabbitmq-hello</module>
+        <module>stream-hello</module>
     </modules>
 
     <dependencyManagement>
