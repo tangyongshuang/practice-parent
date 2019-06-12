@@ -9,35 +9,30 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>feign-consumer</artifactId>
+    <artifactId>Prometheus-Grafana</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>com.anhe</groupId>
-            <artifactId>basic-application-api</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-feign</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+
+        <!-- prometheus Spring Boot 依赖 -->
         <dependency>
-            <groupId>com.anhe</groupId>
-            <artifactId>springcloud-basic</artifactId>
-            <version>1.0.0</version>
+            <groupId>io.prometheus</groupId>
+            <artifactId>simpleclient_spring_boot</artifactId>
+            <version>0.6.0</version>
+        </dependency>
+
+        <!-- 增加端点登录验证 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
     </dependencies>
 

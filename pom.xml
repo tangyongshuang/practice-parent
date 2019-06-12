@@ -47,6 +47,10 @@
         <module>trace-1</module>
         <module>trace-2</module>
         <module>zipkin-server</module>
+        <module>Prometheus-Grafana</module>
+        <module>Gatling-Test</module>
+        <module>Test-War</module>
+        <module>circle-monitor-1</module>
     </modules>
 
     <dependencyManagement>

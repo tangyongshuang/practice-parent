@@ -9,26 +9,30 @@
         <module name="Hystrix-Demo" />
         <module name="config-server" />
         <module name="config-client" />
+        <module name="Prometheus-Grafana" />
         <module name="UserInfo-Maneger-System" />
         <module name="Luckymoney" />
+        <module name="springcloud-basic" />
         <module name="QrCode" />
         <module name="Fuzzy-Query" />
         <module name="Mercy-Blitz" />
-        <module name="stream-hello" />
-        <module name="trace-2" />
+        <module name="Gatling-Test" />
         <module name="zipkin-server" />
         <module name="ribbon-consumer" />
         <module name="feign-consumer" />
-        <module name="springcloud-basic" />
+        <module name="stream-hello" />
         <module name="API-TEST" />
+        <module name="basic-application-api" />
         <module name="fuzzy-query" />
+        <module name="Test-War" />
         <module name="eureka-server" />
         <module name="Binlog-Client" />
-        <module name="basic-application-api" />
+        <module name="trace-2" />
         <module name="trace-1" />
         <module name="api-gateway" />
         <module name="DHL-FIND-SIMILAR" />
         <module name="rabbitmq-hello" />
+        <module name="circle-monitor-1" />
         <module name="SpringBoot-Actuator-Prometheus-Grafana" />
       </profile>
     </annotationProcessing>

@@ -24,6 +24,9 @@ public class FeignController {
     @Autowired
     private RefactorBasicService refactorBasicService;
 
+//    @Autowired
+//    private TestController testController;
+
     @RequestMapping("/feign-consumer")
     public String helloConsumer() {
         logger.info("feign-consumer is invoke...");
@@ -51,4 +54,14 @@ public class FeignController {
         sb.append(refactorBasicService.hello6(new com.anhe.dto.User("Albert",25)));
         return sb.toString();
     }
+//
+//    @RequestMapping("/feign-consumer4")
+//    public String helloConsumer4(HttpServletRequest request){
+//
+//        StringBuilder sb = new StringBuilder();
+//        sb.append(helloService.hello1("albert new ")).append("\n");
+//        sb.append(helloService.hello2("albert new ",26)).append("\n");
+//        sb.append(helloService.hello3(new User("Albert new ",25)));
+//        return sb.toString();
+//    }
 }

@@ -33,7 +33,16 @@ public class TestController {
     @RequestMapping("/hello")
     public String hello() {
         ServiceInstance instance = client.getLocalServiceInstance();
-        List<String> services = client.getServices();
+        List<String> serviceIds = client.getServices();
+        for (String s : serviceIds) {
+            List<ServiceInstance> instances = client.getInstances(s);
+            for (ServiceInstance serviceInstance : instances) {
+                System.out.println(serviceInstance.getUri());
+                System.out.println(serviceInstance.getHost());
+                System.out.println(serviceInstance.getPort());
+                System.out.println(serviceInstance.getMetadata());
+            }
+        }
         String serviceId = registration.getServiceId();
         logger.info("registration#getServiceId {}", serviceId);
         logger.info("host: {} port: {}, service_id: {}", instance.getHost(), port, instance.getServiceId());

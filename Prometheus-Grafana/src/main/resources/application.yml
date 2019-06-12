@@ -1,0 +1,13 @@
+# 最好不要采用这种全部端点失效的做法
+#management:
+#  security:
+#    enabled: false
+spring:
+  application:
+    name: Grafana-Prometheus
+server:
+  port: 16666
+security:
+  user:
+    name: user
+    password: pwd
