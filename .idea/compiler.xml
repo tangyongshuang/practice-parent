@@ -15,6 +15,7 @@
         <module name="springcloud-basic" />
         <module name="QrCode" />
         <module name="Fuzzy-Query" />
+        <module name="circle-monitor-2" />
         <module name="Mercy-Blitz" />
         <module name="Gatling-Test" />
         <module name="zipkin-server" />

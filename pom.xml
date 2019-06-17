@@ -51,6 +51,7 @@
         <module>Gatling-Test</module>
         <module>Test-War</module>
         <module>circle-monitor-1</module>
+        <module>circle-monitor-2</module>
     </modules>
 
     <dependencyManagement>

@@ -18,5 +18,7 @@ public class JolokiaDemo {
         long max = values.get("max");
         int usage = (int) (used * 100L / max);
         System.out.println("Memory usage:used:" + used + "/max:" + max + "=" + usage + "%");
+
+        
     }
 }

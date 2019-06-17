@@ -2,7 +2,7 @@ package com.anhe.controller;
 
 
 import com.anhe.invoke.HelloService;
-import com.anhe.invoke.RefactorBasicService;
+//import com.anhe.invoke.RefactorBasicService;
 import com.anhe.pojo.User;
 import org.apache.catalina.servlet4preview.http.HttpServletRequest;
 import org.slf4j.Logger;
@@ -21,8 +21,8 @@ public class FeignController {
     @Autowired
     private HelloService helloService;
 
-    @Autowired
-    private RefactorBasicService refactorBasicService;
+//    @Autowired
+//    private RefactorBasicService refactorBasicService;
 
 //    @Autowired
 //    private TestController testController;
@@ -45,16 +45,16 @@ public class FeignController {
         return sb.toString();
     }
 
-    @RequestMapping("/feign-consumer3")
-    public String helloConsumer3(HttpServletRequest request){
-
-        StringBuilder sb = new StringBuilder();
-        sb.append(refactorBasicService.hello4("albert")).append("\n");
-        sb.append(refactorBasicService.hello5("albert",26)).append("\n");
-        sb.append(refactorBasicService.hello6(new com.anhe.dto.User("Albert",25)));
-        return sb.toString();
-    }
+//    @RequestMapping("/feign-consumer3")
+//    public String helloConsumer3(HttpServletRequest request){
 //
+//        StringBuilder sb = new StringBuilder();
+//        sb.append(refactorBasicService.hello4("albert")).append("\n");
+//        sb.append(refactorBasicService.hello5("albert",26)).append("\n");
+//        sb.append(refactorBasicService.hello6(new com.anhe.dto.User("Albert",25)));
+//        return sb.toString();
+//    }
+////
 //    @RequestMapping("/feign-consumer4")
 //    public String helloConsumer4(HttpServletRequest request){
 //
