@@ -75,7 +75,16 @@ public class TestController {
     @RequestMapping("/hello3")
     public String hello3(HttpServletRequest request, @RequestBody User user) {
         String sessionId = WebUtils.getSessionId(request);
-        logger.info("[sessionId]: {}",sessionId);
+        logger.info("[sessionId]: {}", sessionId);
         return "hello" + user.getName() + "," + user.getAge();
+    }
+
+    @RequestMapping("/math")
+    public String math(int i) throws RuntimeException {
+
+        if (i > 3) {
+            throw new RuntimeException("i>3 不成立");
+        }
+        return "success";
     }
 }

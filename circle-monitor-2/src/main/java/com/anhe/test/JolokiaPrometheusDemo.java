@@ -12,8 +12,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.stereotype.Component;
+import sun.management.snmp.jvminstr.JvmMemoryImpl;
 
 import javax.management.MalformedObjectNameException;
+import java.lang.management.MemoryMXBean;
 import java.net.URI;
 import java.util.List;
 import java.util.Map;
@@ -51,14 +53,13 @@ public class JolokiaPrometheusDemo implements InitializingBean {
 
     private void setPromethues(URI uri, String serviceId) throws MalformedObjectNameException, J4pException {
         J4pClient j4pClient = new J4pClient(uri.toString() + "/jolokia");
+        // 获取String
         J4pReadRequest request = new J4pReadRequest("java.lang:type=Memory", "HeapMemoryUsage");
         J4pReadResponse response = j4pClient.execute(request);
         Map<String, Long> values = response.getValue();
         logger.info("response values : {}", JSON.toJSONString(values));
         Long used = values.get("used");
         BaseData.HEAP_USED.labels(serviceId, uri.getHost()).set(used / 1024 / 1024);
-
-
     }
 
 

@@ -10,8 +10,11 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class ConsumerController {
 
-    @Autowired
-    private RestTemplate restTemplate;
+    private final RestTemplate restTemplate;
+
+    public ConsumerController(RestTemplate restTemplate) {
+        this.restTemplate = restTemplate;
+    }
 
     @RequestMapping(value = "ribbon-consumer",method = RequestMethod.GET)
     public String helloConsumer(){
