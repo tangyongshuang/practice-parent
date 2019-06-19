@@ -1,0 +1,1015 @@
+2019-06-19 09:56:33.094 ERROR 26091 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@102:16 - RuntimeException in Action for tag [appender] org.apache.kafka.common.KafkaException: Failed to construct kafka producer
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:162)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:81)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:59)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:115)
+	at org.springframework.boot.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:303)
+	at org.springframework.boot.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:276)
+	at org.springframework.boot.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:212)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:296)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:134)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:175)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:98)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:64)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:296)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.anhe.BasicApplication.main(BasicApplication.java:15)
+
+2019-06-19 09:56:33.100 ERROR 26091 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@102:16 - RuntimeException in Action for tag [appender] org.apache.kafka.common.KafkaException: Failed to construct kafka producer
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:162)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:81)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:59)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:115)
+	at org.springframework.boot.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:303)
+	at org.springframework.boot.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:276)
+	at org.springframework.boot.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:212)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:296)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:134)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:175)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:98)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:64)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:296)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.anhe.BasicApplication.main(BasicApplication.java:15)
+
+2019-06-19 09:57:21.595  INFO 26252 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2bfc268b: startup date [Wed Jun 19 09:57:21 CST 2019]; root of context hierarchy
+2019-06-19 09:57:21.725  INFO 26252 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+2019-06-19 09:57:21.914  INFO 26252 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-06-19 09:57:21.974  INFO 26252 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9ecef0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-19 09:57:22.284  INFO 26252 --- [main] com.anhe.BasicApplication                : No active profile set, falling back to default profiles: default
+2019-06-19 09:57:22.299  INFO 26252 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a9c38eb: startup date [Wed Jun 19 09:57:22 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2bfc268b
+2019-06-19 09:57:23.136  INFO 26252 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cfdd8d0b-8d9f-3e80-bdfe-ec985b905aee
+2019-06-19 09:57:23.153  INFO 26252 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-06-19 09:57:23.206  INFO 26252 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$1fff9252] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-19 09:57:23.215  INFO 26252 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9ecef0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-19 09:57:23.441  INFO 26252 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 0 (http)
+2019-06-19 09:57:23.449  INFO 26252 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-19 09:57:23.450  INFO 26252 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2019-06-19 09:57:23.555  INFO 26252 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-19 09:57:23.555  INFO 26252 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1256 ms
+2019-06-19 09:57:23.766  INFO 26252 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-06-19 09:57:23.771  INFO 26252 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2019-06-19 09:57:23.771  INFO 26252 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-19 09:57:23.771  INFO 26252 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-19 09:57:23.772  INFO 26252 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-19 09:57:23.772  INFO 26252 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-19 09:57:23.772  INFO 26252 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2019-06-19 09:57:23.772  INFO 26252 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2019-06-19 09:57:24.015  WARN 26252 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-06-19 09:57:24.016  INFO 26252 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-19 09:57:24.020  WARN 26252 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-06-19 09:57:24.020  INFO 26252 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-19 09:57:24.082  INFO 26252 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : jolokia: No access restrictor found, access to any MBean is allowed
+2019-06-19 09:57:24.250  INFO 26252 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a9c38eb: startup date [Wed Jun 19 09:57:22 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2bfc268b
+2019-06-19 09:57:24.318  INFO 26252 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/refactor/hello5]}" onto public com.anhe.dto.User com.anhe.controller.RefactorController.hello5(java.lang.String,java.lang.Integer)
+2019-06-19 09:57:24.319  INFO 26252 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/refactor/hello4]}" onto public java.lang.String com.anhe.controller.RefactorController.hello4(java.lang.String)
+2019-06-19 09:57:24.319  INFO 26252 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/refactor/hello6]}" onto public java.lang.String com.anhe.controller.RefactorController.hello6(com.anhe.dto.User)
+2019-06-19 09:57:24.321  INFO 26252 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/math]}" onto public java.lang.String com.anhe.controller.TestController.math(int) throws java.lang.RuntimeException
+2019-06-19 09:57:24.321  INFO 26252 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.anhe.controller.TestController.hello()
+2019-06-19 09:57:24.321  INFO 26252 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello1]}" onto public java.lang.String com.anhe.controller.TestController.hello1(java.lang.String)
+2019-06-19 09:57:24.322  INFO 26252 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2]}" onto public com.anhe.pojo.User com.anhe.controller.TestController.hello2(java.lang.String,java.lang.Integer)
+2019-06-19 09:57:24.322  INFO 26252 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello3]}" onto public java.lang.String com.anhe.controller.TestController.hello3(org.apache.catalina.servlet4preview.http.HttpServletRequest,com.anhe.pojo.User)
+2019-06-19 09:57:24.324  INFO 26252 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-19 09:57:24.325  INFO 26252 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-19 09:57:24.353  INFO 26252 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-19 09:57:24.354  INFO 26252 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-19 09:57:24.370  INFO 26252 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in exceptionHaldle
+2019-06-19 09:57:24.388  INFO 26252 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-19 09:57:24.861  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-06-19 09:57:24.864  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2019-06-19 09:57:24.864  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2019-06-19 09:57:24.865  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 09:57:24.865  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 09:57:24.866  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 09:57:24.867  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 09:57:24.867  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 09:57:24.868  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 09:57:24.868  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 09:57:24.869  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2019-06-19 09:57:24.870  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2019-06-19 09:57:24.871  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()
+2019-06-19 09:57:24.872  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)
+2019-06-19 09:57:24.872  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 09:57:24.873  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2019-06-19 09:57:24.874  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-06-19 09:57:24.874  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2019-06-19 09:57:24.875  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 09:57:24.875  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2019-06-19 09:57:24.875  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2019-06-19 09:57:24.876  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 09:57:24.876  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-06-19 09:57:24.877  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2019-06-19 09:57:24.877  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 09:57:24.879  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/shutdown || /shutdown.json],methods=[POST],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.ShutdownMvcEndpoint.invoke()
+2019-06-19 09:57:24.880  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/jolokia/**]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.actuate.endpoint.mvc.JolokiaMvcEndpoint.handle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-06-19 09:57:24.880  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2019-06-19 09:57:24.881  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 09:57:24.881  INFO 26252 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2019-06-19 09:57:25.020  INFO 26252 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-06-19 09:57:25.029  INFO 26252 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-06-19 09:57:25.031  INFO 26252 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-06-19 09:57:25.032  INFO 26252 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2019-06-19 09:57:25.033  INFO 26252 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2019-06-19 09:57:25.034  INFO 26252 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'serviceRegistryEndpoint' has been autodetected for JMX exposure
+2019-06-19 09:57:25.035  INFO 26252 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-06-19 09:57:25.037  INFO 26252 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-06-19 09:57:25.047  INFO 26252 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2019-06-19 09:57:25.056  INFO 26252 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'serviceRegistryEndpoint': registering with JMX server as MBean [org.springframework.cloud.client.serviceregistry.endpoint:name=serviceRegistryEndpoint,type=ServiceRegistryEndpoint]
+2019-06-19 09:57:25.062  INFO 26252 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-06-19 09:57:25.070  INFO 26252 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=1a9c38eb,type=ConfigurationPropertiesRebinder]
+2019-06-19 09:57:25.074  INFO 26252 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2019-06-19 09:57:25.075  INFO 26252 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Registering beans for JMX exposure on startup
+2019-06-19 09:57:25.195  INFO 26252 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : jolokia: No access restrictor found, access to any MBean is allowed
+2019-06-19 09:57:25.198  INFO 26252 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : jolokia: jolokia:type=Config is already registered. Adding it with jolokia:type=Config,uuid=b2599d53-64bd-4695-a61a-a9cb345512ae, but you should revise your setup in order to either use a qualifier or ensure, that only a single agent gets registered (otherwise history functionality might not work)
+2019-06-19 09:57:25.199  INFO 26252 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : jolokia: Cannot register (legacy) MBean handler for config store with name jmx4perl:type=Config since it already exists. This is the case if another agent has been already started within the same JVM. The registration is skipped.
+2019-06-19 09:57:25.199  INFO 26252 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : jolokia: Jolokia Discovery MBean registration is skipped because there is already one registered.
+2019-06-19 09:57:25.240  INFO 26252 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2019-06-19 09:57:25.241  INFO 26252 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2019-06-19 09:57:25.246  INFO 26252 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2019-06-19 09:57:25.250  INFO 26252 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2019-06-19 09:57:25.252  INFO 26252 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2019-06-19 09:57:25.254  INFO 26252 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2019-06-19 09:57:25.256  INFO 26252 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2019-06-19 09:57:25.258  INFO 26252 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2019-06-19 09:57:25.260  INFO 26252 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2019-06-19 09:57:25.262  INFO 26252 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2019-06-19 09:57:25.266  INFO 26252 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2019-06-19 09:57:25.268  INFO 26252 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2019-06-19 09:57:25.269  INFO 26252 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2019-06-19 09:57:25.271  INFO 26252 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2019-06-19 09:57:25.273  INFO 26252 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'shutdownEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=shutdownEndpoint]
+2019-06-19 09:57:25.276  INFO 26252 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2019-06-19 09:57:25.293  INFO 26252 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-auto-1"]
+2019-06-19 09:57:25.300  INFO 26252 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-auto-1"]
+2019-06-19 09:57:25.326  INFO 26252 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-06-19 09:57:25.339  INFO 26252 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 52167 (http)
+2019-06-19 09:57:25.340  INFO 26252 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 52167
+2019-06-19 09:57:25.346  INFO 26252 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-06-19 09:57:25.375  INFO 26252 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-06-19 09:57:25.611  INFO 26252 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-06-19 09:57:25.612  INFO 26252 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-06-19 09:57:25.692  INFO 26252 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-06-19 09:57:25.693  INFO 26252 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-06-19 09:57:25.893  INFO 26252 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 09:57:25.909  INFO 26252 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-06-19 09:57:25.910  INFO 26252 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-06-19 09:57:25.910  INFO 26252 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-06-19 09:57:25.910  INFO 26252 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-06-19 09:57:25.910  INFO 26252 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-06-19 09:57:25.910  INFO 26252 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-06-19 09:57:25.910  INFO 26252 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-06-19 09:57:26.046  INFO 26252 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-06-19 09:57:26.048  INFO 26252 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-06-19 09:57:26.050  INFO 26252 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-06-19 09:57:26.052  INFO 26252 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1560909446052 with initial instances count: 7
+2019-06-19 09:57:26.069  INFO 26252 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application basic-application with eureka with status UP
+2019-06-19 09:57:26.070  INFO 26252 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1560909446070, current=UP, previous=STARTING]
+2019-06-19 09:57:26.072  INFO 26252 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BASIC-APPLICATION/basic-application:-1986888942: registering service...
+2019-06-19 09:57:26.080  INFO 26252 --- [main] com.anhe.BasicApplication                : Started BasicApplication in 5.013 seconds (JVM running for 5.539)
+2019-06-19 09:57:26.100  INFO 26252 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BASIC-APPLICATION/basic-application:-1986888942 - registration status: 204
+2019-06-19 10:02:25.883  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 10:07:25.879  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 10:12:25.875  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 10:17:25.883  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 10:17:33.107  INFO 26252 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-06-19 10:17:33.108  INFO 26252 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-06-19 10:17:33.125  INFO 26252 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+2019-06-19 10:17:33.155  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.1.60:13009"
+2019-06-19 10:17:33.155  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 10:17:33.156  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 13009
+2019-06-19 10:17:33.159  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 10:17:33.159  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.1.60:15555"
+2019-06-19 10:17:33.159  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 10:17:33.160  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 15555
+2019-06-19 10:17:33.160  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 10:17:33.160  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.11.56:60741"
+2019-06-19 10:17:33.160  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 10:17:33.161  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 60741
+2019-06-19 10:17:33.161  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 10:17:33.161  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.11.56:52167"
+2019-06-19 10:17:33.161  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 10:17:33.162  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 52167
+2019-06-19 10:17:33.162  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 10:17:33.162  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.11.56:60183"
+2019-06-19 10:17:33.163  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 10:17:33.163  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 60183
+2019-06-19 10:17:33.164  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 10:17:33.164  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://peer2:13112"
+2019-06-19 10:17:33.164  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "peer2"
+2019-06-19 10:17:33.165  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 13112
+2019-06-19 10:17:33.165  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 10:17:33.166  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://peer1:13111"
+2019-06-19 10:17:33.166  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "peer1"
+2019-06-19 10:17:33.166  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 13111
+2019-06-19 10:17:33.167  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 10:17:33.167  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.1.60:13008"
+2019-06-19 10:17:33.168  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 10:17:33.168  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 13008
+2019-06-19 10:17:33.168  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 10:17:33.168  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : registration#getServiceId basic-application
+2019-06-19 10:17:33.169  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : host: 192.168.11.56 port: 0, service_id: basic-application
+2019-06-19 10:17:42.265  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : "http://192.168.1.60:13009"
+2019-06-19 10:17:42.266  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 10:17:42.266  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : 13009
+2019-06-19 10:17:42.267  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : {}
+2019-06-19 10:17:42.267  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : "http://192.168.1.60:15555"
+2019-06-19 10:17:42.268  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 10:17:42.268  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : 15555
+2019-06-19 10:17:42.268  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : {}
+2019-06-19 10:17:42.269  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : "http://192.168.11.56:60741"
+2019-06-19 10:17:42.269  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 10:17:42.270  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : 60741
+2019-06-19 10:17:42.270  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : {}
+2019-06-19 10:17:42.270  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : "http://192.168.11.56:52167"
+2019-06-19 10:17:42.271  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 10:17:42.271  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : 52167
+2019-06-19 10:17:42.271  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : {}
+2019-06-19 10:17:42.271  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : "http://192.168.11.56:60183"
+2019-06-19 10:17:42.272  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 10:17:42.272  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : 60183
+2019-06-19 10:17:42.272  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : {}
+2019-06-19 10:17:42.273  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : "http://peer2:13112"
+2019-06-19 10:17:42.273  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : "peer2"
+2019-06-19 10:17:42.273  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : 13112
+2019-06-19 10:17:42.274  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : {}
+2019-06-19 10:17:42.274  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : "http://peer1:13111"
+2019-06-19 10:17:42.274  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : "peer1"
+2019-06-19 10:17:42.275  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : 13111
+2019-06-19 10:17:42.275  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : {}
+2019-06-19 10:17:42.276  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : "http://192.168.1.60:13008"
+2019-06-19 10:17:42.276  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 10:17:42.276  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : 13008
+2019-06-19 10:17:42.276  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : {}
+2019-06-19 10:17:42.277  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : registration#getServiceId basic-application
+2019-06-19 10:17:42.277  INFO 26252 --- [http-nio-auto-1-exec-3] com.anhe.controller.TestController       : host: 192.168.11.56 port: 0, service_id: basic-application
+2019-06-19 10:22:25.880  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 10:24:32.711  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "http://192.168.1.60:13009"
+2019-06-19 10:24:32.712  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 10:24:32.712  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : 13009
+2019-06-19 10:24:32.712  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : {}
+2019-06-19 10:24:32.713  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "http://192.168.1.60:15555"
+2019-06-19 10:24:32.713  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 10:24:32.713  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : 15555
+2019-06-19 10:24:32.713  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : {}
+2019-06-19 10:24:32.714  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "http://192.168.11.56:52167"
+2019-06-19 10:24:32.714  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 10:24:32.714  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : 52167
+2019-06-19 10:24:32.714  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : {}
+2019-06-19 10:24:32.715  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "http://192.168.11.56:60741"
+2019-06-19 10:24:32.715  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 10:24:32.715  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : 60741
+2019-06-19 10:24:32.715  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : {}
+2019-06-19 10:24:32.716  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "http://192.168.11.56:60183"
+2019-06-19 10:24:32.716  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 10:24:32.716  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : 60183
+2019-06-19 10:24:32.717  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : {}
+2019-06-19 10:24:32.717  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "http://peer1:13111"
+2019-06-19 10:24:32.717  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "peer1"
+2019-06-19 10:24:32.719  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : 13111
+2019-06-19 10:24:32.719  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : {}
+2019-06-19 10:24:32.720  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "http://peer2:13112"
+2019-06-19 10:24:32.720  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "peer2"
+2019-06-19 10:24:32.720  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : 13112
+2019-06-19 10:24:32.720  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : {}
+2019-06-19 10:24:32.721  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "http://192.168.1.60:13008"
+2019-06-19 10:24:32.721  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 10:24:32.722  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : 13008
+2019-06-19 10:24:32.722  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : {}
+2019-06-19 10:24:32.722  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : registration#getServiceId basic-application
+2019-06-19 10:24:32.723  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : host: 192.168.11.56 port: 0, service_id: basic-application
+2019-06-19 10:27:25.877  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 10:32:25.864  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 10:33:37.072  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.1.60:13009"
+2019-06-19 10:33:37.072  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 10:33:37.073  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 13009
+2019-06-19 10:33:37.073  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 10:33:37.073  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.1.60:15555"
+2019-06-19 10:33:37.073  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 10:33:37.074  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 15555
+2019-06-19 10:33:37.078  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 10:33:37.078  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.11.56:60183"
+2019-06-19 10:33:37.079  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 10:33:37.079  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 60183
+2019-06-19 10:33:37.079  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 10:33:37.080  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.11.56:60741"
+2019-06-19 10:33:37.080  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 10:33:37.080  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 60741
+2019-06-19 10:33:37.080  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 10:33:37.081  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.11.56:52167"
+2019-06-19 10:33:37.081  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 10:33:37.081  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 52167
+2019-06-19 10:33:37.081  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 10:33:37.082  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://peer2:13112"
+2019-06-19 10:33:37.082  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "peer2"
+2019-06-19 10:33:37.082  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 13112
+2019-06-19 10:33:37.083  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 10:33:37.083  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://peer1:13111"
+2019-06-19 10:33:37.083  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "peer1"
+2019-06-19 10:33:37.083  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 13111
+2019-06-19 10:33:37.084  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 10:33:37.084  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.1.60:13008"
+2019-06-19 10:33:37.085  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 10:33:37.085  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 13008
+2019-06-19 10:33:37.085  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 10:33:37.085  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : registration#getServiceId basic-application
+2019-06-19 10:33:37.086  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : host: 192.168.11.56 port: 0, service_id: basic-application
+2019-06-19 10:37:25.859  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 10:42:25.855  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 10:44:34.021  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://192.168.1.60:13009"
+2019-06-19 10:44:34.022  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 10:44:34.022  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 13009
+2019-06-19 10:44:34.022  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 10:44:34.023  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://192.168.1.60:15555"
+2019-06-19 10:44:34.023  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 10:44:34.023  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 15555
+2019-06-19 10:44:34.024  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 10:44:34.024  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://192.168.11.56:52167"
+2019-06-19 10:44:34.024  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 10:44:34.025  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 52167
+2019-06-19 10:44:34.025  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 10:44:34.025  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://192.168.11.56:60741"
+2019-06-19 10:44:34.025  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 10:44:34.026  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 60741
+2019-06-19 10:44:34.026  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 10:44:34.026  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://192.168.11.56:60183"
+2019-06-19 10:44:34.026  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 10:44:34.027  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 60183
+2019-06-19 10:44:34.028  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 10:44:34.028  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://peer2:13112"
+2019-06-19 10:44:34.028  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "peer2"
+2019-06-19 10:44:34.029  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 13112
+2019-06-19 10:44:34.029  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 10:44:34.029  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://peer1:13111"
+2019-06-19 10:44:34.030  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "peer1"
+2019-06-19 10:44:34.031  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 13111
+2019-06-19 10:44:34.031  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 10:44:34.031  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://192.168.1.60:13008"
+2019-06-19 10:44:34.032  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 10:44:34.032  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 13008
+2019-06-19 10:44:34.032  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 10:44:34.033  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : registration#getServiceId basic-application
+2019-06-19 10:44:34.033  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : host: 192.168.11.56 port: 0, service_id: basic-application
+2019-06-19 10:47:25.853  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 10:49:25.916  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : "http://192.168.1.60:13009"
+2019-06-19 10:49:25.917  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 10:49:25.918  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : 13009
+2019-06-19 10:49:25.918  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : {}
+2019-06-19 10:49:25.918  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : "http://192.168.1.60:15555"
+2019-06-19 10:49:25.918  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 10:49:25.918  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : 15555
+2019-06-19 10:49:25.919  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : {}
+2019-06-19 10:49:25.919  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : "http://192.168.11.56:60741"
+2019-06-19 10:49:25.919  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 10:49:25.920  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : 60741
+2019-06-19 10:49:25.920  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : {}
+2019-06-19 10:49:25.921  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : "http://192.168.11.56:60183"
+2019-06-19 10:49:25.922  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 10:49:25.923  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : 60183
+2019-06-19 10:49:25.925  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : {}
+2019-06-19 10:49:25.925  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : "http://192.168.11.56:52167"
+2019-06-19 10:49:25.925  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 10:49:25.926  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : 52167
+2019-06-19 10:49:25.927  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : {}
+2019-06-19 10:49:25.927  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : "http://peer2:13112"
+2019-06-19 10:49:25.928  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : "peer2"
+2019-06-19 10:49:25.928  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : 13112
+2019-06-19 10:49:25.928  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : {}
+2019-06-19 10:49:25.929  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : "http://peer1:13111"
+2019-06-19 10:49:25.929  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : "peer1"
+2019-06-19 10:49:25.929  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : 13111
+2019-06-19 10:49:25.930  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : {}
+2019-06-19 10:49:25.930  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : "http://192.168.1.60:13008"
+2019-06-19 10:49:25.930  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 10:49:25.930  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : 13008
+2019-06-19 10:49:25.931  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : {}
+2019-06-19 10:49:25.931  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : registration#getServiceId basic-application
+2019-06-19 10:49:25.931  INFO 26252 --- [http-nio-auto-1-exec-9] com.anhe.controller.TestController       : host: 192.168.11.56 port: 0, service_id: basic-application
+2019-06-19 10:52:25.847  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 10:53:21.456  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : "http://192.168.1.60:13009"
+2019-06-19 10:53:21.458  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 10:53:21.458  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : 13009
+2019-06-19 10:53:21.458  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : {}
+2019-06-19 10:53:21.459  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : "http://192.168.1.60:15555"
+2019-06-19 10:53:21.459  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 10:53:21.459  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : 15555
+2019-06-19 10:53:21.459  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : {}
+2019-06-19 10:53:21.460  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : "http://192.168.11.56:52167"
+2019-06-19 10:53:21.460  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 10:53:21.460  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : 52167
+2019-06-19 10:53:21.461  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : {}
+2019-06-19 10:53:21.461  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : "http://192.168.11.56:60741"
+2019-06-19 10:53:21.461  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 10:53:21.462  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : 60741
+2019-06-19 10:53:21.462  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : {}
+2019-06-19 10:53:21.462  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : "http://192.168.11.56:60183"
+2019-06-19 10:53:21.463  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 10:53:21.463  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : 60183
+2019-06-19 10:53:21.464  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : {}
+2019-06-19 10:53:21.465  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : "http://peer2:13112"
+2019-06-19 10:53:21.465  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : "peer2"
+2019-06-19 10:53:21.465  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : 13112
+2019-06-19 10:53:21.465  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : {}
+2019-06-19 10:53:21.466  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : "http://peer1:13111"
+2019-06-19 10:53:21.466  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : "peer1"
+2019-06-19 10:53:21.466  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : 13111
+2019-06-19 10:53:21.466  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : {}
+2019-06-19 10:53:21.467  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : "http://192.168.1.60:13008"
+2019-06-19 10:53:21.467  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 10:53:21.468  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : 13008
+2019-06-19 10:53:21.468  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : {}
+2019-06-19 10:53:21.469  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : registration#getServiceId basic-application
+2019-06-19 10:53:21.469  INFO 26252 --- [http-nio-auto-1-exec-4] com.anhe.controller.TestController       : host: 192.168.11.56 port: 0, service_id: basic-application
+2019-06-19 10:57:25.844  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 11:02:25.839  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 11:07:25.827  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 11:12:25.822  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 11:17:25.817  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 11:22:25.812  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 11:27:25.812  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 11:32:25.812  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 11:32:41.629  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : "http://192.168.1.60:13009"
+2019-06-19 11:32:41.629  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 11:32:41.630  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : 13009
+2019-06-19 11:32:41.630  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : {}
+2019-06-19 11:32:41.632  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : "http://192.168.1.60:15555"
+2019-06-19 11:32:41.632  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 11:32:41.632  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : 15555
+2019-06-19 11:32:41.632  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : {}
+2019-06-19 11:32:41.635  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : "http://192.168.11.56:60183"
+2019-06-19 11:32:41.636  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 11:32:41.637  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : 60183
+2019-06-19 11:32:41.637  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : {}
+2019-06-19 11:32:41.637  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : "http://192.168.11.56:52167"
+2019-06-19 11:32:41.638  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 11:32:41.638  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : 52167
+2019-06-19 11:32:41.638  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : {}
+2019-06-19 11:32:41.639  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : "http://192.168.11.56:60741"
+2019-06-19 11:32:41.639  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 11:32:41.639  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : 60741
+2019-06-19 11:32:41.640  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : {}
+2019-06-19 11:32:41.640  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : "http://peer1:13111"
+2019-06-19 11:32:41.640  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : "peer1"
+2019-06-19 11:32:41.640  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : 13111
+2019-06-19 11:32:41.641  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : {}
+2019-06-19 11:32:41.641  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : "http://peer2:13112"
+2019-06-19 11:32:41.641  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : "peer2"
+2019-06-19 11:32:41.642  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : 13112
+2019-06-19 11:32:41.642  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : {}
+2019-06-19 11:32:41.643  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : "http://192.168.1.60:13008"
+2019-06-19 11:32:41.643  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 11:32:41.643  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : 13008
+2019-06-19 11:32:41.644  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : {}
+2019-06-19 11:32:41.644  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : registration#getServiceId basic-application
+2019-06-19 11:32:41.644  INFO 26252 --- [http-nio-auto-1-exec-8] com.anhe.controller.TestController       : host: 192.168.11.56 port: 0, service_id: basic-application
+2019-06-19 11:33:36.037  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.1.60:13009"
+2019-06-19 11:33:36.038  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 11:33:36.038  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 13009
+2019-06-19 11:33:36.038  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 11:33:36.038  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.1.60:15555"
+2019-06-19 11:33:36.039  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 11:33:36.039  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 15555
+2019-06-19 11:33:36.039  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 11:33:36.039  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.11.56:52167"
+2019-06-19 11:33:36.039  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 11:33:36.040  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 52167
+2019-06-19 11:33:36.040  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 11:33:36.040  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.11.56:60183"
+2019-06-19 11:33:36.040  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 11:33:36.041  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 60183
+2019-06-19 11:33:36.041  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 11:33:36.041  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.11.56:60741"
+2019-06-19 11:33:36.041  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 11:33:36.041  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 60741
+2019-06-19 11:33:36.042  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 11:33:36.042  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://peer2:13112"
+2019-06-19 11:33:36.042  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "peer2"
+2019-06-19 11:33:36.043  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 13112
+2019-06-19 11:33:36.043  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 11:33:36.043  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://peer1:13111"
+2019-06-19 11:33:36.043  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "peer1"
+2019-06-19 11:33:36.044  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 13111
+2019-06-19 11:33:36.044  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 11:33:36.045  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.1.60:13008"
+2019-06-19 11:33:36.045  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 11:33:36.045  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 13008
+2019-06-19 11:33:36.045  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 11:33:36.046  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : registration#getServiceId basic-application
+2019-06-19 11:33:36.046  INFO 26252 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : host: 192.168.11.56 port: 0, service_id: basic-application
+2019-06-19 11:35:33.118  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://192.168.1.60:13009"
+2019-06-19 11:35:33.119  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 11:35:33.119  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 13009
+2019-06-19 11:35:33.119  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 11:35:33.121  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://192.168.1.60:15555"
+2019-06-19 11:35:33.122  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 11:35:33.123  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 15555
+2019-06-19 11:35:33.123  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 11:35:33.123  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://192.168.11.56:60183"
+2019-06-19 11:35:33.124  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 11:35:33.124  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 60183
+2019-06-19 11:35:33.124  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 11:35:33.125  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://192.168.11.56:60741"
+2019-06-19 11:35:33.125  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 11:35:33.125  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 60741
+2019-06-19 11:35:33.125  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 11:35:33.126  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://192.168.11.56:52167"
+2019-06-19 11:35:33.126  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 11:35:33.126  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 52167
+2019-06-19 11:35:33.126  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 11:35:33.126  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://peer1:13111"
+2019-06-19 11:35:33.127  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "peer1"
+2019-06-19 11:35:33.127  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 13111
+2019-06-19 11:35:33.127  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 11:35:33.128  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://peer2:13112"
+2019-06-19 11:35:33.129  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "peer2"
+2019-06-19 11:35:33.130  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 13112
+2019-06-19 11:35:33.131  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 11:35:33.131  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://192.168.1.60:13008"
+2019-06-19 11:35:33.132  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 11:35:33.133  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 13008
+2019-06-19 11:35:33.133  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 11:35:33.134  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : registration#getServiceId basic-application
+2019-06-19 11:35:33.134  INFO 26252 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : host: 192.168.11.56 port: 0, service_id: basic-application
+2019-06-19 11:35:33.669  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "http://192.168.1.60:13009"
+2019-06-19 11:35:33.669  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 11:35:33.669  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : 13009
+2019-06-19 11:35:33.670  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : {}
+2019-06-19 11:35:33.670  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "http://192.168.1.60:15555"
+2019-06-19 11:35:33.670  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 11:35:33.670  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : 15555
+2019-06-19 11:35:33.671  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : {}
+2019-06-19 11:35:33.671  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "http://192.168.11.56:60183"
+2019-06-19 11:35:33.672  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 11:35:33.672  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : 60183
+2019-06-19 11:35:33.672  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : {}
+2019-06-19 11:35:33.673  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "http://192.168.11.56:60741"
+2019-06-19 11:35:33.673  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 11:35:33.673  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : 60741
+2019-06-19 11:35:33.674  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : {}
+2019-06-19 11:35:33.675  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "http://192.168.11.56:52167"
+2019-06-19 11:35:33.675  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 11:35:33.675  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : 52167
+2019-06-19 11:35:33.676  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : {}
+2019-06-19 11:35:33.676  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "http://peer1:13111"
+2019-06-19 11:35:33.676  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "peer1"
+2019-06-19 11:35:33.676  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : 13111
+2019-06-19 11:35:33.676  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : {}
+2019-06-19 11:35:33.677  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "http://peer2:13112"
+2019-06-19 11:35:33.677  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "peer2"
+2019-06-19 11:35:33.677  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : 13112
+2019-06-19 11:35:33.677  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : {}
+2019-06-19 11:35:33.678  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "http://192.168.1.60:13008"
+2019-06-19 11:35:33.678  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 11:35:33.678  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : 13008
+2019-06-19 11:35:33.679  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : {}
+2019-06-19 11:35:33.679  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : registration#getServiceId basic-application
+2019-06-19 11:35:33.679  INFO 26252 --- [http-nio-auto-1-exec-7] com.anhe.controller.TestController       : host: 192.168.11.56 port: 0, service_id: basic-application
+2019-06-19 11:37:25.807  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 11:42:25.795  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 11:47:25.791  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 11:52:25.786  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 11:57:25.775  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 12:02:25.773  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 12:07:25.768  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 12:12:25.761  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 12:17:25.756  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 12:22:25.758  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 12:27:25.750  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 12:32:25.753  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 12:37:25.749  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 12:42:25.738  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 12:47:25.733  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 12:52:25.728  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 12:57:25.730  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 13:02:25.730  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 13:07:25.729  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 13:12:25.732  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 13:17:25.726  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 13:22:25.722  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 13:27:25.716  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 13:32:25.711  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 13:37:25.707  INFO 26252 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 13:41:01.058  INFO 26252 --- [Thread-17] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a9c38eb: startup date [Wed Jun 19 09:57:22 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2bfc268b
+2019-06-19 13:41:01.135  INFO 26252 --- [Thread-17] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application basic-application with eureka with status DOWN
+2019-06-19 13:41:01.140  WARN 26252 --- [Thread-17] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1560922861140, current=DOWN, previous=UP]
+2019-06-19 13:41:01.149  INFO 26252 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BASIC-APPLICATION/basic-application:-1986888942: registering service...
+2019-06-19 13:41:01.158  INFO 26252 --- [Thread-17] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-06-19 13:41:01.162  INFO 26252 --- [Thread-17] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-06-19 13:41:01.270  INFO 26252 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BASIC-APPLICATION/basic-application:-1986888942 - registration status: 204
+2019-06-19 13:41:01.272  INFO 26252 --- [Thread-17] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BASIC-APPLICATION/basic-application:-1986888942 - deregister  status: 200
+2019-06-19 13:41:01.365  INFO 26252 --- [Thread-17] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-06-19 13:41:01.417  INFO 26252 --- [Thread-17] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2019-06-19 13:41:01.449  INFO 26252 --- [Thread-17] o.s.b.a.e.jmx.EndpointMBeanExporter      : Unregistering JMX-exposed beans on shutdown
+2019-06-19 13:41:01.454  INFO 26252 --- [Thread-17] o.s.b.a.e.jmx.EndpointMBeanExporter      : Unregistering JMX-exposed beans
+2019-06-19 13:41:01.457  INFO 26252 --- [Thread-17] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-06-19 13:41:01.458  INFO 26252 --- [Thread-17] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2019-06-19 13:41:07.278 ERROR 71759 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@102:20 - RuntimeException in Action for tag [appender] org.apache.kafka.common.KafkaException: Failed to construct kafka producer
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:162)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:81)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:59)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:115)
+	at org.springframework.boot.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:303)
+	at org.springframework.boot.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:276)
+	at org.springframework.boot.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:212)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:296)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:134)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:175)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:98)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:64)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:296)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.anhe.BasicApplication.main(BasicApplication.java:15)
+
+2019-06-19 13:41:07.285 ERROR 71759 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@102:20 - RuntimeException in Action for tag [appender] org.apache.kafka.common.KafkaException: Failed to construct kafka producer
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:162)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:81)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:59)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:115)
+	at org.springframework.boot.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:303)
+	at org.springframework.boot.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:276)
+	at org.springframework.boot.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:212)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:296)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:134)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:175)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:98)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:64)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:296)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.anhe.BasicApplication.main(BasicApplication.java:15)
+
+2019-06-19 13:45:03.126  INFO 72569 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6a2f6f80: startup date [Wed Jun 19 13:45:03 CST 2019]; root of context hierarchy
+2019-06-19 13:45:03.290  INFO 72569 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+2019-06-19 13:45:06.452  WARN 72569 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 1 : {kafka-topics=LEADER_NOT_AVAILABLE}
+2019-06-19 13:46:03.293  INFO 72569 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-06-19 13:46:06.457  INFO 72569 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : Cluster ID: 0fLfGaXHRP6QM2zOnkUvGQ
+2019-06-19 13:47:03.326  INFO 72569 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$32744ef0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-19 13:47:10.989  WARN 72569 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/192.168.1.60:9092) could not be established. Broker may not be available.
+2019-06-19 13:48:11.021  INFO 72569 --- [main] com.anhe.BasicApplication                : No active profile set, falling back to default profiles: default
+2019-06-19 13:48:11.089  WARN 72569 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Error while fetching metadata with correlation id 1 : {kafka-topics=LEADER_NOT_AVAILABLE}
+2019-06-19 13:49:11.037  INFO 72569 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4a194c39: startup date [Wed Jun 19 13:49:11 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6a2f6f80
+2019-06-19 13:49:11.092  INFO 72569 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.Metadata        : Cluster ID: 0fLfGaXHRP6QM2zOnkUvGQ
+2019-06-19 13:50:11.893  INFO 72569 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cfdd8d0b-8d9f-3e80-bdfe-ec985b905aee
+2019-06-19 13:50:15.734  WARN 72569 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node 0 (/192.168.1.60:9092) could not be established. Broker may not be available.
+2019-06-19 13:51:11.919  INFO 72569 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-06-19 13:51:21.982  WARN 72569 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node 0 (/192.168.1.60:9092) could not be established. Broker may not be available.
+2019-06-19 13:52:11.978  INFO 72569 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$4886f234] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-19 13:52:26.166  WARN 72569 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node 0 (/192.168.1.60:9092) could not be established. Broker may not be available.
+2019-06-19 13:53:11.990  INFO 72569 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$32744ef0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-19 13:53:32.733  WARN 72569 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node 0 (/192.168.1.60:9092) could not be established. Broker may not be available.
+2019-06-19 13:54:12.252  INFO 72569 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 0 (http)
+2019-06-19 13:54:39.207  WARN 72569 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node 0 (/192.168.1.60:9092) could not be established. Broker may not be available.
+2019-06-19 13:55:12.264  INFO 72569 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-19 13:55:45.515  WARN 72569 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node 0 (/192.168.1.60:9092) could not be established. Broker may not be available.
+2019-06-19 13:56:12.268  INFO 72569 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2019-06-19 13:56:52.688  WARN 72569 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node 0 (/192.168.1.60:9092) could not be established. Broker may not be available.
+2019-06-19 13:57:12.356  INFO 72569 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-19 13:57:59.406  WARN 72569 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node 0 (/192.168.1.60:9092) could not be established. Broker may not be available.
+2019-06-19 13:58:12.362  INFO 72569 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 541325 ms
+2019-06-19 13:59:05.832  WARN 72569 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node 0 (/192.168.1.60:9092) could not be established. Broker may not be available.
+2019-06-19 13:59:12.575  INFO 72569 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-06-19 14:00:12.582  INFO 72569 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2019-06-19 14:00:12.638  WARN 72569 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node 0 (/192.168.1.60:9092) could not be established. Broker may not be available.
+2019-06-19 14:01:12.586  INFO 72569 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-19 14:01:17.250  WARN 72569 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node 0 (/192.168.1.60:9092) could not be established. Broker may not be available.
+2019-06-19 14:02:12.590  INFO 72569 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-19 14:02:24.019  WARN 72569 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node 0 (/192.168.1.60:9092) could not be established. Broker may not be available.
+2019-06-19 14:03:12.593  INFO 72569 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-19 14:03:31.051  WARN 72569 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node 0 (/192.168.1.60:9092) could not be established. Broker may not be available.
+2019-06-19 14:04:12.597  INFO 72569 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-19 14:04:37.960  WARN 72569 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node 0 (/192.168.1.60:9092) could not be established. Broker may not be available.
+2019-06-19 14:05:12.600  INFO 72569 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2019-06-19 14:05:44.106  WARN 72569 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node 0 (/192.168.1.60:9092) could not be established. Broker may not be available.
+2019-06-19 14:05:54.961  INFO 77518 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@484970b0: startup date [Wed Jun 19 14:05:54 CST 2019]; root of context hierarchy
+2019-06-19 14:05:55.084  INFO 77518 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+2019-06-19 14:05:55.118  INFO 77518 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : Cluster ID: 0fLfGaXHRP6QM2zOnkUvGQ
+2019-06-19 14:05:55.385  INFO 77518 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-06-19 14:05:55.425  INFO 77518 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$99327f46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-19 14:05:55.766  INFO 77518 --- [main] com.anhe.BasicApplication                : No active profile set, falling back to default profiles: default
+2019-06-19 14:05:55.772  INFO 77518 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.Metadata        : Cluster ID: 0fLfGaXHRP6QM2zOnkUvGQ
+2019-06-19 14:05:55.796  INFO 77518 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d131e1b: startup date [Wed Jun 19 14:05:55 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@484970b0
+2019-06-19 14:05:56.651  INFO 77518 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cfdd8d0b-8d9f-3e80-bdfe-ec985b905aee
+2019-06-19 14:05:56.675  INFO 77518 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-06-19 14:05:56.753  INFO 77518 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$af45228a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-19 14:05:56.769  INFO 77518 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$99327f46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-19 14:05:57.097  INFO 77518 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 0 (http)
+2019-06-19 14:05:57.105  INFO 77518 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-19 14:05:57.107  INFO 77518 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2019-06-19 14:05:57.206  INFO 77518 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-19 14:05:57.207  INFO 77518 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1411 ms
+2019-06-19 14:05:57.404  INFO 77518 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-06-19 14:05:57.409  INFO 77518 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2019-06-19 14:05:57.410  INFO 77518 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-19 14:05:57.410  INFO 77518 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-19 14:05:57.410  INFO 77518 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-19 14:05:57.411  INFO 77518 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-19 14:05:57.411  INFO 77518 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2019-06-19 14:05:57.412  INFO 77518 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2019-06-19 14:05:57.729  WARN 77518 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-06-19 14:05:57.730  INFO 77518 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-19 14:05:57.734  WARN 77518 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-06-19 14:05:57.735  INFO 77518 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-19 14:05:57.808  INFO 77518 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : jolokia: No access restrictor found, access to any MBean is allowed
+2019-06-19 14:05:58.002  INFO 77518 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d131e1b: startup date [Wed Jun 19 14:05:55 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@484970b0
+2019-06-19 14:05:58.085  INFO 77518 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/refactor/hello4]}" onto public java.lang.String com.anhe.controller.RefactorController.hello4(java.lang.String)
+2019-06-19 14:05:58.087  INFO 77518 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/refactor/hello5]}" onto public com.anhe.dto.User com.anhe.controller.RefactorController.hello5(java.lang.String,java.lang.Integer)
+2019-06-19 14:05:58.087  INFO 77518 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/refactor/hello6]}" onto public java.lang.String com.anhe.controller.RefactorController.hello6(com.anhe.dto.User)
+2019-06-19 14:05:58.088  INFO 77518 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.anhe.controller.TestController.hello()
+2019-06-19 14:05:58.089  INFO 77518 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello1]}" onto public java.lang.String com.anhe.controller.TestController.hello1(java.lang.String)
+2019-06-19 14:05:58.090  INFO 77518 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2]}" onto public com.anhe.pojo.User com.anhe.controller.TestController.hello2(java.lang.String,java.lang.Integer)
+2019-06-19 14:05:58.090  INFO 77518 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello3]}" onto public java.lang.String com.anhe.controller.TestController.hello3(org.apache.catalina.servlet4preview.http.HttpServletRequest,com.anhe.pojo.User)
+2019-06-19 14:05:58.091  INFO 77518 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/math]}" onto public java.lang.String com.anhe.controller.TestController.math(int) throws java.lang.RuntimeException
+2019-06-19 14:05:58.094  INFO 77518 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-19 14:05:58.095  INFO 77518 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-19 14:05:58.127  INFO 77518 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-19 14:05:58.128  INFO 77518 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-19 14:05:58.145  INFO 77518 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in exceptionHaldle
+2019-06-19 14:05:58.165  INFO 77518 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-19 14:05:58.680  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 14:05:58.681  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2019-06-19 14:05:58.682  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2019-06-19 14:05:58.683  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2019-06-19 14:05:58.684  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2019-06-19 14:05:58.685  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 14:05:58.685  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()
+2019-06-19 14:05:58.686  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)
+2019-06-19 14:05:58.687  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 14:05:58.688  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 14:05:58.688  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-06-19 14:05:58.689  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 14:05:58.690  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 14:05:58.691  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 14:05:58.692  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2019-06-19 14:05:58.693  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 14:05:58.695  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2019-06-19 14:05:58.697  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2019-06-19 14:05:58.697  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2019-06-19 14:05:58.698  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 14:05:58.699  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-06-19 14:05:58.700  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/jolokia/**]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.actuate.endpoint.mvc.JolokiaMvcEndpoint.handle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-06-19 14:05:58.701  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2019-06-19 14:05:58.702  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-06-19 14:05:58.703  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2019-06-19 14:05:58.704  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 14:05:58.705  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 14:05:58.705  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-06-19 14:05:58.707  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2019-06-19 14:05:58.710  INFO 77518 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/shutdown || /shutdown.json],methods=[POST],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.ShutdownMvcEndpoint.invoke()
+2019-06-19 14:05:58.978  INFO 77518 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-06-19 14:05:58.987  INFO 77518 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-06-19 14:05:58.990  INFO 77518 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-06-19 14:05:58.991  INFO 77518 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2019-06-19 14:05:58.992  INFO 77518 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2019-06-19 14:05:58.993  INFO 77518 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'serviceRegistryEndpoint' has been autodetected for JMX exposure
+2019-06-19 14:05:58.994  INFO 77518 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-06-19 14:05:58.997  INFO 77518 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-06-19 14:05:59.008  INFO 77518 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2019-06-19 14:05:59.017  INFO 77518 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'serviceRegistryEndpoint': registering with JMX server as MBean [org.springframework.cloud.client.serviceregistry.endpoint:name=serviceRegistryEndpoint,type=ServiceRegistryEndpoint]
+2019-06-19 14:05:59.023  INFO 77518 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-06-19 14:05:59.031  INFO 77518 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=1d131e1b,type=ConfigurationPropertiesRebinder]
+2019-06-19 14:05:59.036  INFO 77518 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2019-06-19 14:05:59.037  INFO 77518 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Registering beans for JMX exposure on startup
+2019-06-19 14:05:59.150  INFO 77518 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : jolokia: No access restrictor found, access to any MBean is allowed
+2019-06-19 14:05:59.154  INFO 77518 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : jolokia: jolokia:type=Config is already registered. Adding it with jolokia:type=Config,uuid=eb66d596-4be6-49f0-bc81-262a9eef2809, but you should revise your setup in order to either use a qualifier or ensure, that only a single agent gets registered (otherwise history functionality might not work)
+2019-06-19 14:05:59.155  INFO 77518 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : jolokia: Cannot register (legacy) MBean handler for config store with name jmx4perl:type=Config since it already exists. This is the case if another agent has been already started within the same JVM. The registration is skipped.
+2019-06-19 14:05:59.155  INFO 77518 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : jolokia: Jolokia Discovery MBean registration is skipped because there is already one registered.
+2019-06-19 14:05:59.200  INFO 77518 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2019-06-19 14:05:59.202  INFO 77518 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2019-06-19 14:05:59.208  INFO 77518 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2019-06-19 14:05:59.213  INFO 77518 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2019-06-19 14:05:59.216  INFO 77518 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2019-06-19 14:05:59.218  INFO 77518 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2019-06-19 14:05:59.220  INFO 77518 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2019-06-19 14:05:59.223  INFO 77518 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2019-06-19 14:05:59.225  INFO 77518 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2019-06-19 14:05:59.228  INFO 77518 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2019-06-19 14:05:59.235  INFO 77518 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2019-06-19 14:05:59.237  INFO 77518 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2019-06-19 14:05:59.239  INFO 77518 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2019-06-19 14:05:59.242  INFO 77518 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2019-06-19 14:05:59.244  INFO 77518 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'shutdownEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=shutdownEndpoint]
+2019-06-19 14:05:59.247  INFO 77518 --- [main] o.s.b.a.e.jmx.EndpointMBeanExporter      : Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2019-06-19 14:05:59.267  INFO 77518 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-auto-1"]
+2019-06-19 14:05:59.274  INFO 77518 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-auto-1"]
+2019-06-19 14:05:59.279  INFO 77518 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-06-19 14:05:59.292  INFO 77518 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 63819 (http)
+2019-06-19 14:05:59.293  INFO 77518 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 63819
+2019-06-19 14:05:59.300  INFO 77518 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-06-19 14:05:59.328  INFO 77518 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-06-19 14:05:59.470  INFO 77518 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-06-19 14:05:59.471  INFO 77518 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-06-19 14:05:59.551  INFO 77518 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-06-19 14:05:59.551  INFO 77518 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-06-19 14:05:59.755  INFO 77518 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 14:05:59.774  INFO 77518 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-06-19 14:05:59.775  INFO 77518 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-06-19 14:05:59.775  INFO 77518 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-06-19 14:05:59.775  INFO 77518 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-06-19 14:05:59.776  INFO 77518 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-06-19 14:05:59.776  INFO 77518 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-06-19 14:05:59.777  INFO 77518 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-06-19 14:05:59.930  INFO 77518 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-06-19 14:05:59.932  INFO 77518 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-06-19 14:05:59.935  INFO 77518 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-06-19 14:05:59.939  INFO 77518 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1560924359939 with initial instances count: 7
+2019-06-19 14:05:59.963  INFO 77518 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application basic-application with eureka with status UP
+2019-06-19 14:05:59.964  INFO 77518 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1560924359964, current=UP, previous=STARTING]
+2019-06-19 14:05:59.967  INFO 77518 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BASIC-APPLICATION/basic-application:-1403307492: registering service...
+2019-06-19 14:05:59.977  INFO 77518 --- [main] com.anhe.BasicApplication                : Started BasicApplication in 5.726 seconds (JVM running for 6.285)
+2019-06-19 14:06:00.008  INFO 77518 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BASIC-APPLICATION/basic-application:-1403307492 - registration status: 204
+2019-06-19 14:10:59.774  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 14:11:26.233  INFO 77518 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-06-19 14:11:26.233  INFO 77518 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-06-19 14:11:26.256  INFO 77518 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2019-06-19 14:11:26.294  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.1.60:13009"
+2019-06-19 14:11:26.294  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 14:11:26.294  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 13009
+2019-06-19 14:11:26.297  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 14:11:26.298  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.1.60:15555"
+2019-06-19 14:11:26.298  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 14:11:26.299  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 15555
+2019-06-19 14:11:26.299  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 14:11:26.300  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.11.56:63819"
+2019-06-19 14:11:26.300  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 14:11:26.300  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 63819
+2019-06-19 14:11:26.301  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 14:11:26.301  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.11.56:60741"
+2019-06-19 14:11:26.301  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 14:11:26.302  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 60741
+2019-06-19 14:11:26.302  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 14:11:26.303  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.11.56:60183"
+2019-06-19 14:11:26.303  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 14:11:26.303  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 60183
+2019-06-19 14:11:26.303  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 14:11:26.304  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://peer1:13111"
+2019-06-19 14:11:26.304  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "peer1"
+2019-06-19 14:11:26.304  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 13111
+2019-06-19 14:11:26.305  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 14:11:26.305  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://peer2:13112"
+2019-06-19 14:11:26.305  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "peer2"
+2019-06-19 14:11:26.306  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 13112
+2019-06-19 14:11:26.306  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 14:11:26.307  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "http://192.168.1.60:13008"
+2019-06-19 14:11:26.307  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 14:11:26.307  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : 13008
+2019-06-19 14:11:26.308  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : {}
+2019-06-19 14:11:26.308  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : registration#getServiceId basic-application
+2019-06-19 14:11:26.308  INFO 77518 --- [http-nio-auto-1-exec-1] com.anhe.controller.TestController       : host: 192.168.11.56 port: 0, service_id: basic-application
+2019-06-19 14:15:59.767  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 14:20:59.760  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 14:25:59.757  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 14:30:59.752  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 14:32:08.750  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://192.168.1.60:13009"
+2019-06-19 14:32:08.751  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 14:32:08.752  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 13009
+2019-06-19 14:32:08.752  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 14:32:08.753  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://192.168.1.60:15555"
+2019-06-19 14:32:08.755  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 14:32:08.755  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 15555
+2019-06-19 14:32:08.755  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 14:32:08.756  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://192.168.11.56:60741"
+2019-06-19 14:32:08.758  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 14:32:08.758  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 60741
+2019-06-19 14:32:08.759  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 14:32:08.760  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://192.168.11.56:60183"
+2019-06-19 14:32:08.761  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 14:32:08.761  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 60183
+2019-06-19 14:32:08.761  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 14:32:08.762  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://192.168.11.56:63819"
+2019-06-19 14:32:08.762  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 14:32:08.762  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 63819
+2019-06-19 14:32:08.764  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 14:32:08.766  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://peer2:13112"
+2019-06-19 14:32:08.767  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "peer2"
+2019-06-19 14:32:08.767  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 13112
+2019-06-19 14:32:08.769  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 14:32:08.769  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://peer1:13111"
+2019-06-19 14:32:08.770  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "peer1"
+2019-06-19 14:32:08.770  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 13111
+2019-06-19 14:32:08.771  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 14:32:08.771  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "http://192.168.1.60:13008"
+2019-06-19 14:32:08.772  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 14:32:08.772  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : 13008
+2019-06-19 14:32:08.772  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : {}
+2019-06-19 14:32:08.773  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : registration#getServiceId basic-application
+2019-06-19 14:32:08.773  INFO 77518 --- [http-nio-auto-1-exec-5] com.anhe.controller.TestController       : host: 192.168.11.56 port: 0, service_id: basic-application
+2019-06-19 14:35:59.748  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 14:40:59.745  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 14:43:39.039  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : "http://192.168.1.60:13009"
+2019-06-19 14:43:39.040  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 14:43:39.041  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : 13009
+2019-06-19 14:43:39.041  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : {}
+2019-06-19 14:43:39.041  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : "http://192.168.1.60:15555"
+2019-06-19 14:43:39.041  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 14:43:39.042  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : 15555
+2019-06-19 14:43:39.042  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : {}
+2019-06-19 14:43:39.042  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : "http://192.168.11.56:60741"
+2019-06-19 14:43:39.043  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 14:43:39.043  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : 60741
+2019-06-19 14:43:39.043  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : {}
+2019-06-19 14:43:39.044  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : "http://192.168.11.56:60183"
+2019-06-19 14:43:39.044  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 14:43:39.045  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : 60183
+2019-06-19 14:43:39.045  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : {}
+2019-06-19 14:43:39.046  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : "http://192.168.11.56:63819"
+2019-06-19 14:43:39.046  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : "192.168.11.56"
+2019-06-19 14:43:39.048  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : 63819
+2019-06-19 14:43:39.048  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : {}
+2019-06-19 14:43:39.049  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : "http://peer1:13111"
+2019-06-19 14:43:39.050  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : "peer1"
+2019-06-19 14:43:39.050  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : 13111
+2019-06-19 14:43:39.050  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : {}
+2019-06-19 14:43:39.051  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : "http://peer2:13112"
+2019-06-19 14:43:39.051  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : "peer2"
+2019-06-19 14:43:39.051  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : 13112
+2019-06-19 14:43:39.052  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : {}
+2019-06-19 14:43:39.052  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : "http://192.168.1.60:13008"
+2019-06-19 14:43:39.052  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : "192.168.1.60"
+2019-06-19 14:43:39.053  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : 13008
+2019-06-19 14:43:39.053  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : {}
+2019-06-19 14:43:39.053  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : registration#getServiceId basic-application
+2019-06-19 14:43:39.053  INFO 77518 --- [http-nio-auto-1-exec-10] com.anhe.controller.TestController       : host: 192.168.11.56 port: 0, service_id: basic-application
+2019-06-19 14:45:59.741  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 14:50:59.738  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 14:55:59.736  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 15:00:59.728  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 15:05:59.725  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 15:10:59.721  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 15:15:59.720  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 15:20:59.736  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 15:25:59.734  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 15:30:59.730  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 15:35:59.738  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 15:40:59.733  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 15:45:59.732  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 15:50:59.728  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 15:55:59.725  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 16:00:59.723  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 16:05:59.716  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-19 16:10:59.715  INFO 77518 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

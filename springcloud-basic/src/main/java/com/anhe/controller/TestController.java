@@ -1,6 +1,7 @@
 package com.anhe.controller;
 
 
+import com.alibaba.fastjson.JSON;
 import com.anhe.pojo.User;
 import org.apache.catalina.servlet4preview.http.HttpServletRequest;
 import org.slf4j.Logger;
@@ -37,10 +38,10 @@ public class TestController {
         for (String s : serviceIds) {
             List<ServiceInstance> instances = client.getInstances(s);
             for (ServiceInstance serviceInstance : instances) {
-                System.out.println(serviceInstance.getUri());
-                System.out.println(serviceInstance.getHost());
-                System.out.println(serviceInstance.getPort());
-                System.out.println(serviceInstance.getMetadata());
+                logger.info(JSON.toJSONString(serviceInstance.getUri()));
+                logger.info(JSON.toJSONString(serviceInstance.getHost()));
+                logger.info(JSON.toJSONString(serviceInstance.getPort()));
+                logger.info(JSON.toJSONString(serviceInstance.getMetadata()));
             }
         }
         String serviceId = registration.getServiceId();
